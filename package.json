@@ -4,6 +4,9 @@
   "description": "A simple forward proxy server for processing API calls to servers that don't send CORS headers or support HTTPS.",
   "main": "server.js",
   "author": "Jim Heising <jim@buglabs.net>",
+  "scripts": {
+    "start": "node server.js"
+  },
   "license": "MIT",
   "dependencies": {
     "request": "2.40.0",
